@@ -1,0 +1,17 @@
+.why-shop-section {
+  background: #f8f9fa;
+}
+
+.why-shop-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.why-shop-section .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why-shop-section .icon {
+  color: #28a745; /* green theme */
+}

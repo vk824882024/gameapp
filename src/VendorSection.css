@@ -1,0 +1,31 @@
+/* Custom CSS for VendorSection */
+
+.vendor-section {
+  background-color: #f8f9fa; /* Light background for the section */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.vendor-illustration {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* Limit image size on larger screens */
+}
+
+.vendor-list li {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.benefit-icon {
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #ffc107; /* Match the CTA color */
+}
+
+.register-btn {
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 50px;
+}

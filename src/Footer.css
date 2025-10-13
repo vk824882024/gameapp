@@ -1,0 +1,33 @@
+/* Custom CSS for Footer */
+
+.footer-section {
+  background-color: #343a40; /* Dark background color */
+  color: white;
+}
+
+.footer-section h5 {
+  color: #f8f9fa;
+}
+
+.footer-section a {
+  color: #adb5bd; /* Lighter text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #ffffff; /* White text on hover */
+}
+
+.social-icons .social-link {
+  color: white;
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+.social-icons .social-link:hover {
+  color: #ffc107; /* Yellow color on hover */
+}
+
+.powered-by {
+  font-size: 0.9rem;
+  color: #adb5bd;
+}

@@ -1,0 +1,231 @@
+body 
+{ 
+  background:linear-gradient(#6A0DAD);  
+  background-size: contain;
+  background-position: center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  position: static;
+}
+
+.scroll-container {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.moving-box {
+  width: 100%;
+  height: 1000px;
+  height: fit-content;
+  background: black;
+  color: white;
+  font-size: 20px;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  border-radius: 15px;
+  transition:0.6s ease-in-out; /* smoothness */
+  /* animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scrollY)*-1s);
+  animation-iteration-count: 1;
+  animation-fill-mode:  both;
+}
+@keyframes rotate {
+  to{
+    transform: rotate(360deg);
+    
+  }
+   */
+}
+.header
+{
+  position: sticky;
+}
+.scroll-container {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  /* background: linear-gradient(135deg, #36d1dc, #5b86e5); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.moving-box {
+  color: black; 
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  margin-top: 120px;
+  border-radius: 15px;
+  transition: transform 0.1s linear; /* smoothness */
+}
+
+.content {
+  height: 150vh;
+  background: #f3f3f3;
+  text-align: center;
+  padding: 50px;
+}
+.countdown-section {
+  background: linear-gradient(90deg, #fdfbfb, #ebedee);
+}
+
+.time-box {
+  background: white;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 20px 15px;
+  min-width: 80px;
+}
+
+.time-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.time-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.category-box {
+  background: #ffffff;
+  border: 1px solid #eee;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.category-box:hover {
+  background: #007bff;
+  color: #fff;
+  transform: translateY(-5px);
+}
+.why-vendors-section {
+  background: linear-gradient(90deg, #ffffff, #f9f9f9);
+}
+
+.why-vendors-section h2 {
+  color: #333;
+}
+
+.why-vendors-section ul li {
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.why-vendors-section ul li:hover {
+  transform: translateX(5px);
+  color: #28a745;
+}
+
+.btn-outline-success {
+  border-width: 2px;
+  font-weight: 600;
+}
+.how-it-works .nav-pills .nav-link {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.how-it-works .nav-pills .nav-link.active {
+  background-color: #28a745;
+}
+
+.step-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.daily-lucky-draw {
+  background: linear-gradient(135deg, #fff8e1, #fce4ec);
+}
+
+.prize-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prize-icon {
+  font-size: 4rem;
+}
+.closing-cta {
+  background: linear-gradient(135deg, #ff6f61, #ffcc80, #81c784);
+  color: white;
+  border-radius: 15px;
+  margin: 40px 0;
+}
+
+.closing-cta h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.closing-cta .btn {
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.closing-cta .btn:hover {
+  transform: translateY(-4px);
+}
+.footer-section {
+  background-color: #343a40; /* Dark background color */
+  color: white;
+}
+
+.footer-section h5 {
+  color: #f8f9fa;
+}
+
+.footer-section a {
+  color: #adb5bd; /* Lighter text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #ffffff; /* White text on hover */
+}
+
+.social-icons .social-link {
+  color: white;
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+.social-icons .social-link:hover {
+  color: #ffc107; /* Yellow color on hover */
+}
+
+.powered-by {
+  font-size: 0.9rem;
+  color: #adb5bd;
+}
