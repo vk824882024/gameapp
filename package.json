@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vk824882024.github.io/sample3",
+  "homepage": "http://vk824882024.github.io/sample3",
   "name": "gameapp",
   "version": "0.1.0",
   "private": true,
@@ -26,8 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
