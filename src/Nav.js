@@ -4,7 +4,6 @@ import React, { useState,useEffect } from "react";
 import { Carousel } from "react-bootstrap";
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaLinkedin, FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa';
-import Footer from "./Footer";
 function Navbar() {
    const reasons = [
     {
